@@ -1,0 +1,23 @@
+{
+  "name": "qt-json-editor",
+  "version-semver": "0.1.0",
+  "dependencies": [
+    {
+      "name": "fmt",
+      "version>=": "9.0.0"
+    }
+  ],
+  "default-features": [],
+  "features": {
+    "test": {
+      "description": "Dependencies for testing",
+      "dependencies": [
+        {
+          "name": "gtest",
+          "version>=": "1.12.0"
+        }
+      ]
+    }
+  },
+  "builtin-baseline": "4217fee510d4c592d3e45564d3ee116ae301189f"
+}
